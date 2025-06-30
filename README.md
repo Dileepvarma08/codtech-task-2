@@ -29,7 +29,7 @@ The code performs sentiment analysis on a dataset (sentiment_train) through seve
 6.Feature Importance: Logistic Regression coefficients indicate feature importance. Positive coefficients suggest features associated with positive sentiment (e.g., "great"), while negative coefficients indicate negative sentiment (e.g., "terrible"). The top 10 features for each are printed, providing insights into what drives sentiment predictions.<br/>
 
 The code transforms raw review text into numerical features using TF-IDF, trains a Logistic Regression model to classify sentiments, and evaluates its performance. The process ensures the model learns meaningful patterns (e.g., positive words like "excellent" vs. negative ones like "awful") while handling noise through stop words and stemming. The evaluation and feature importance steps help assess the model’s effectiveness and interpret its decisions, making it a robust approach for sentiment analysis..<br/>
-
+#output.<br/>
 [Image](https://github.com/user-attachments/assets/850fb50d-4ce3-4735-afb0-c3d55b0f72b6)
 
 ![Image](https://github.com/user-attachments/assets/83145405-4419-4314-83ce-8b8305a51a20)
